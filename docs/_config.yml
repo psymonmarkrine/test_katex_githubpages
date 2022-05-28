@@ -1,0 +1,5 @@
+theme: jekyll-theme-time-machine
+title: Math Jax Test
+plugins:
+  - jekyll-sitemap
+  
