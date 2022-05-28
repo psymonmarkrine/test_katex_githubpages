@@ -1,5 +1,5 @@
 theme: jekyll-theme-time-machine
-title: Math Jax Test
+title: KaTex Test
 plugins:
   - jekyll-sitemap
   
