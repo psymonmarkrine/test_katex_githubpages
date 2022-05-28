@@ -1,4 +1,4 @@
-## mathjax test
+## katex test
 
 $x, y, z$
 
