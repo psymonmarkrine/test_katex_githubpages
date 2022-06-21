@@ -305,14 +305,14 @@ footer .owner p a {
 /* summary setting */
 summary {
     position: relative;
-    display: block;
+    // display: block;
     padding: 10px 10px 10px 30px;
     cursor: pointer;
     transition: 0.2s;
 }
-summary::-webkit-details-marker {
-    display: none;
-}
+// summary::-webkit-details-marker {
+//     display: none;
+// }
 
 summary:before,
 summary:after {
