@@ -306,7 +306,7 @@ footer .owner p a {
 summary {
     position: relative;
     // display: block;
-    padding: 10px 10px 10px 30px;
+    // padding: 10px 10px 10px 30px;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -317,7 +317,7 @@ summary {
 summary:before,
 summary:after {
     content: "";
-    margin: auto 0 auto 0;
+    margin: auto 0 auto 10px;
     position: absolute;
     top: 0;
     bottom: 0;
