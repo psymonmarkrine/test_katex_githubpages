@@ -21,6 +21,14 @@ $$
 \end{align}
 $$
 
+$$
+\begin{array}{ll}
+  x & = y \tag{0.1} \\
+  y & = f(x) \tag{0.2} \\
+  f(x) & = \sqrt{x^2 + y^2} \tag{0.3} \\
+\end{array}
+$$
+
 ![root](../pict.png)  
 ![img](../img/pict.png)  
 ![docs](./pict.png)  
