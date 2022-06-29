@@ -14,11 +14,11 @@ $$
 $$
 
 $$
-\begin{aligned}
+\begin{align}
   x & = y \tag{0.1} \\
   y & = f(x) \tag{0.2} \\
   f(x) & = \sqrt{x^2 + y^2} \tag{0.3} \\
-\end{aligned}
+\end{align}
 $$
 
 ![root](../pict.png)  
