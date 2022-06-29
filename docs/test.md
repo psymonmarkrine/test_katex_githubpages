@@ -13,6 +13,14 @@ $$
   \prod_{k=1}^{\infty} \frac{4k^2}{4k^2 - 1} \tag{1.1}
 $$
 
+$$
+\begin{aligned}
+  x & = y \tag{0.1} \\
+  y & = f(x) \tag{0.2} \\
+  f(x) & = \sqrt{x^2 + y^2} \tag{0.3} \\
+\end{aligned}
+$$
+
 ![root](../pict.png)  
 ![img](../img/pict.png)  
 ![docs](./pict.png)  
