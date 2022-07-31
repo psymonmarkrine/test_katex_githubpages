@@ -6,16 +6,16 @@
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js" integrity="sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A" crossorigin="anonymous"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // $("script[type='math/tex']").replaceWith(function () {
-  //   var tex = $(this).text();
-  //   return "<span class=\"kdmath\">$" + tex + "$</span>";
-  // });
+  $("script[type='math/tex']").replaceWith(function () {
+    var tex = $(this).text();
+    return "<span class=\"kdmath\">$" + tex + "$</span>";
+  });
 
-  // $("script[type='math/tex; mode=display']").replaceWith(function () {
-  //   var tex = $(this).text();
-  //   tex = tex.replace('% <![CDATA[', '').replace('%]]>', '');
-  //   return "<div class=\"kdmath\">$$" + tex + "$$</div>";
-  // });
+  $("script[type='math/tex; mode=display']").replaceWith(function () {
+    var tex = $(this).text();
+    tex = tex.replace('% <![CDATA[', '').replace('%]]>', '');
+    return "<div class=\"kdmath\">$$" + tex + "$$</div>";
+  });
 
   renderMathInElement(document.body, {
     delimiters: [
