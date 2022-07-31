@@ -1,5 +1,5 @@
 theme: jekyll-theme-time-machine
-title: KaTex Testだったもの
+title: KaTex Test
 plugins:
   - jekyll-sitemap
 kramdown:
