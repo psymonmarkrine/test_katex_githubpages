@@ -23,9 +23,9 @@ $$
 
 $$
 \begin{array}{ll}
-  x & = y \tag{0.1} \\
-  y & = f(x) \tag{0.2} \\
-  f(x) & = \sqrt{x^2 + y^2} \tag{0.3} \\
+  x & = y \tag{0.4} \\
+  y & = f(x) \tag{0.5} \\
+  f(x) & = \sqrt{x^2 + y^2} \tag{0.6} \\
 \end{array}
 $$
 
